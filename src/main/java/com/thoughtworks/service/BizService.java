@@ -47,6 +47,7 @@ public class BizService {
 		strInput = StringUtils.remove(strInput, "'");
 		strInput = StringUtils.remove(strInput, "\n");
 		strInput = StringUtils.remove(strInput, " ");
+		strInput = StringUtils.remove(strInput, "\r");
 		String[] array = strInput.split(",");
 		for(String e : array) {
 			if(StringUtils.contains(e, "-")) {
