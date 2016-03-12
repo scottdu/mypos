@@ -1,12 +1,17 @@
 该项目用Java语言写的,基于JDK7,使用Maven构建
 
-程序环境搭建,需要安装mysql,
+程序环境搭建,需要安装mysql
+
 1）进入工程根目录下的document/sqlscript下，执行sqlscript.sql文件创建数据库和表结构，构建基础数据
+
 2）进入工程根目录下的input下，可以修改输入的测试数据input1.txt和input2.txt
+
 3）进入工程根目录下的config下，配置proxool.properties文件,注意需要将数据库的用户名和密码修改正确
+
 4）运行com.thoughtworks.App的main方法，分别执行不同的testcase,注意testcase的传入参数为input1.txt和input2.txt的文件路径
 
 注：
+
 5）Release目录下有编译好的jar，可以直接执行，注意如果在linux下运行，请设置好运行的字符集编码
 
 具体需求参考工程根目录下的document/requirement/require.txt
